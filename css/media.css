@@ -1,0 +1,55 @@
+@media only screen and (max-width:600px){
+    /* start header*/
+    .logo{
+        text-align: center;
+        padding-left: 40%;
+    }
+    .nav-bar{
+      text-align: center;
+    }
+    .para{
+        padding-top: 30%;
+    }
+    .para1{
+        font-size: 60px;
+        font-size: 55px;
+    }
+    .para2{
+        padding-top: 5%;
+        font-size: 20px;
+    }
+    .btn1{
+      margin-top: 10%;
+    }
+    /*end header*/
+    /*start photo*/
+    .imges{
+        display: flex;
+        flex-direction: column;
+        margin-top: 7%;
+      }
+      .photo .imges .larg,.photo .imges .small{
+        margin-top: 5%;
+        width:100% ;
+        height: auto;
+    }
+    /*end photo*/
+    /*start grid-box*/
+    #grid {
+        display: flex;
+        flex-direction:column;
+    }
+    /*end*/
+    /*start*/
+    .contact form input{
+        width: 350px;
+        margin-bottom: 7%;
+        
+      }
+    .contact form .btn{
+        margin-left: 20% 20%;
+        height: 55px;
+        width: 450px;
+      }
+
+}
